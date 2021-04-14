@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const ContainerLoginPage = styled.div`
        width: 100vw;
-       height:100vh;      
+       height:100vh; 
+          
 `
 export const  FormContainer = styled.form`       
        width: 30vw;
@@ -13,6 +14,7 @@ export const  FormContainer = styled.form`
        justify-content: flex-start;
        align-items:center;
        flex-direction: column;
+       flex-wrap:wrap;
        
        h1{
            text-align:center;
