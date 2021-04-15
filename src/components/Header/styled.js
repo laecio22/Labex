@@ -6,14 +6,23 @@ export const ContainerHeader = styled.div`
        justify-content: space-between;
        align-items: center;
        border: 1px solid #000;
-       background-color: #0F24C0;       
+       background-color: #50B6E2;       
        width: 100vw;       
 
        h2{
-           margin-right: 35px;
+           margin-right: 30px;
+           margin-left:20px;
+           padding:10px;
            color:#fff;
-       }        
+           transition:0.5s;
+           :hover {
+               background-color:#433E3F;
+               
+           }     
+       }  
+      
 `
+
 export const ImageLogo = styled.img`
        height:55px;
        width:70px;
