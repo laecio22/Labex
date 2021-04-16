@@ -5,22 +5,27 @@ export const ContainerLoginPage = styled.div`
        height:100vh;          
 `
 export const  FormContainer = styled.form`       
-       width: 30vw;
-       height:60vh;
+       max-width: 100vw;
+       height:100vh;
        border:1px solid #000;
-       margin: 120px auto; 
+      // margin: 120px auto; 
        display: flex;
-       justify-content: flex-start;
+       justify-content: center;
        align-items:center;
        flex-direction: column;
        flex-wrap:wrap;
-       background-color:#432;
+       background-color:#fff;
        
        h1{
            text-align:center;
            padding:30px 0;   
        }       
-`     
+`    
+export const ContainerFormLogin = styled.div`
+       display:grid;
+       grid-template-columns:1fr 1fr;
+       
+` 
 export const InputForm = styled.div`
        margin-bottom: 30px;
        font-size: 22px;
@@ -40,6 +45,16 @@ export const ButtonLogin = styled.button`
        height:30px;
        margin-top: 20px;
        font-size: 19px;
+`
+export const TextBlock = styled.div`
+       background-color:#016734;
+       color:#fff;
+       font-size:32px;
+       display:flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items:center;
+
 `
 
 

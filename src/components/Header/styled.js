@@ -7,7 +7,7 @@ export const ContainerHeader = styled.div`
        align-items: center;
        border: 1px solid #000;
        background-color: #50B6E2;       
-       width: 100vw;       
+       max-width: 100vw;       
 
        h2{
            margin-right: 30px;
