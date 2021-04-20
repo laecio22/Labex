@@ -1,4 +1,4 @@
-import  styled  from 'styled-components'
+import styled from 'styled-components'
 
 export const ContainerHeader = styled.div`
        height:70px;
@@ -6,7 +6,7 @@ export const ContainerHeader = styled.div`
        justify-content: space-between;
        align-items: center;
        border: 1px solid #000;
-       background-color: #50B6E2;       
+       background-color: #08297D;       
        max-width: 100vw;       
 
        h2{

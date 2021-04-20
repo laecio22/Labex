@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import imagemFundo from '../../assets/images/espaco1.jpg'
+import imagemFundo from '../../assets/images/viagemespacial02.jpg'
 
 const Main = styled.div`
        background-color:#fff;      

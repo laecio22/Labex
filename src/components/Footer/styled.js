@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ContainerFooter = styled.div`
        height:70px;
-       background-color:  #50B6E2; ;
+       background-color:  #08297D; ;
        border: 1px solid #000;
        width:100vw;
        display: flex;

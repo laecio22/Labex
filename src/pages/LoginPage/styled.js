@@ -41,13 +41,16 @@ export const InputForm = styled.div`
        }
 `
 export const ButtonLogin = styled.button`
-       width: 100px;
+       width: 150px;
        height:30px;
        margin-top: 20px;
        font-size: 19px;
+       background-color:#08297D;
+       color:#fff;
+       border-radius: 5px;
 `
 export const TextBlock = styled.div`
-       background-color:#016734;
+       background-color:#06B24E;
        color:#fff;
        font-size:32px;
        display:flex;

@@ -6,21 +6,35 @@ export const ContainerListTripsPage = styled.div`
 `
 export const ContainerInfoTrips = styled.div`
        display:grid;
-       grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;       
+       background-color:#07DDCF;
+       height:60px;  
+       border:1px solid #000;   
 `
 export const ContainerTrips = styled.div`
        margin:0 50px;
+       background-color:#777;
 `
 export const Trip = styled.div`
       display:grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-      margin-top: 10px;
+      border:1px solid #000;     
 `
 export const InfoTrip = styled.p`
+     display:grid;
+     justify-items:center;
+     align-items:center;
      font-weight:bold;
+     color:#000;
+     border:1px solid #000;
 `
 export const ItemTrip = styled.p`
     font-size:17px;
+    border: 1px solid #000;
+    text-align:center;
+    display:grid;
+    justify-items:center;
+    align-items:center;
 `
 
 

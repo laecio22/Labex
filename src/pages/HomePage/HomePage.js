@@ -13,11 +13,11 @@ function HomePage() {
 
      return (
           <ContainerHomePage>
-               <Header redirectPage={() => goToListTripsPage(history)} 
-               titleRedirect={"Área Pública"} 
-               titleSecondary={"Área Privada"}
-               redirectPageSecondary = {() => goToLoginPage(history)}/>
-               <Main>                    
+               <Header redirectPage={() => goToListTripsPage(history)}
+                    titleRedirect={"Área Pública"}
+                    titleSecondary={"Área Privada"}
+                    redirectPageSecondary={() => goToLoginPage(history)} />
+               <Main>
                     <TitlePrincipal>
                          <h1>Labex</h1>
                          <div>Viaje com conforto  e segurança para qualquer planeta do universo conosco</div>
@@ -25,10 +25,11 @@ function HomePage() {
                     <ContainerDescription>
                          <h3>Descrição</h3>
                          <p>A LabeX foi fundada em 2021, com o objetivo principal  de permitir que as pessoas realizem
-                         seu sonho de conhecer outros planetas do nosso imenso universo.
-                        </p>
-                         <p>Gerenciamos e organizamos suas viagens então venha nos conhecer.</p>
-                         <p>Temos a função de proporcionar esse seu sonho  com maior tranquilidade e conforto.</p>
+                         seu sonho de conhecer outros planetas do nosso imenso universo.</p>
+                         <p>Gerenciamos e organizamos suas viagens então venha nos conhecer, 
+                         temos a função de proporcionar esse seu sonho  com maior tranquilidade e conforto.  
+                         </p>
+                         
 
                     </ ContainerDescription>
                     <ContainerAbout>
