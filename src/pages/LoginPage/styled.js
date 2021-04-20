@@ -2,25 +2,30 @@ import styled from 'styled-components'
 
 export const ContainerLoginPage = styled.div`
        width: 100vw;
-       height:100vh; 
-          
+       height:100vh;          
 `
 export const  FormContainer = styled.form`       
-       width: 30vw;
-       height:430px;
+       max-width: 100vw;
+       height:100vh;
        border:1px solid #000;
-       margin: 120px auto; 
+      // margin: 120px auto; 
        display: flex;
-       justify-content: flex-start;
+       justify-content: center;
        align-items:center;
        flex-direction: column;
        flex-wrap:wrap;
+       background-color:#fff;
        
        h1{
            text-align:center;
            padding:30px 0;   
        }       
-`     
+`    
+export const ContainerFormLogin = styled.div`
+       display:grid;
+       grid-template-columns:1fr 1fr;
+       
+` 
 export const InputForm = styled.div`
        margin-bottom: 30px;
        font-size: 22px;
@@ -36,10 +41,23 @@ export const InputForm = styled.div`
        }
 `
 export const ButtonLogin = styled.button`
-       width: 100px;
+       width: 150px;
        height:30px;
        margin-top: 20px;
        font-size: 19px;
+       background-color:#08297D;
+       color:#fff;
+       border-radius: 5px;
+`
+export const TextBlock = styled.div`
+       background-color:#06B24E;
+       color:#fff;
+       font-size:32px;
+       display:flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items:center;
+
 `
 
 

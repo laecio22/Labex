@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import imagemFundo from '../../assets/images/espaco1.jpg'
+import imagemFundo from '../../assets/images/viagemespacial02.jpg'
 
 const Main = styled.div`
        background-color:#fff;      
@@ -11,7 +11,7 @@ const Main = styled.div`
        color:white; 
        display:flex;
        flex-direction:column;
-       align-items:center; 
+       align-items:center;    
      
 `
 export default Main

@@ -9,7 +9,7 @@ export const ContainerDescription = styled.div`
       flex-direction:column;
       justify-content:center;
       align-items:center;
-      gap:15px;
+      gap:15px;     
 `
 export const ContainerAbout = styled.div`
       display:flex;

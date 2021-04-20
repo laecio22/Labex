@@ -1,10 +1,11 @@
 import {useState, useEffect} from 'react'
 
- export const useRedirectPage = (newName, newFunction) =>{
+ export const useRedirectPage = (newName, newFunction, otherName,otherFunction) =>{
     const[name, setName] = useState('')    
-
+    const[secondName,setSecondName] = useState('')
     useEffect(()=>{
         setName(newName)
+        setSecondName(otherName)
     }, [newName])
     
 
@@ -12,5 +13,9 @@ import {useState, useEffect} from 'react'
           return newFunction()
     }
 
-    return [name, redirectPage]
+    const otherRedirectPage = () =>{
+        return otherFunction()
+    }
+
+    return [name, redirectPage, secondName, otherRedirectPage]
 }

@@ -1,4 +1,4 @@
-import  styled  from 'styled-components'
+import styled from 'styled-components'
 
 export const ContainerHeader = styled.div`
        height:70px;
@@ -6,14 +6,23 @@ export const ContainerHeader = styled.div`
        justify-content: space-between;
        align-items: center;
        border: 1px solid #000;
-       background-color: #0F24C0;       
-       width: 100vw;       
+       background-color: #08297D;       
+       max-width: 100vw;       
 
        h2{
-           margin-right: 35px;
+           margin-right: 30px;
+           margin-left:20px;
+           padding:10px;
            color:#fff;
-       }        
+           transition:0.5s;
+           :hover {
+               background-color:#433E3F;
+               
+           }     
+       }  
+      
 `
+
 export const ImageLogo = styled.img`
        height:55px;
        width:70px;

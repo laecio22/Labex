@@ -40,3 +40,7 @@ export const logout = (history) =>{
     }
       
 }
+
+export const goToPreviousPage = (history)=>{
+    history.goBack()
+}
