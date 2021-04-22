@@ -11,7 +11,7 @@ const Main = styled.div`
        color:white; 
        display:flex;
        flex-direction:column;
-       align-items:center;    
+       align-items:center;  
      
 `
 export default Main
