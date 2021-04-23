@@ -18,7 +18,8 @@ export const  FormContainer = styled.form`
        
        h1{
            text-align:center;
-           padding:30px 0;   
+           padding:3rem 0; 
+           font-size:3.8rem;  
        }       
 `    
 export const ContainerFormLogin = styled.div`
@@ -27,32 +28,33 @@ export const ContainerFormLogin = styled.div`
        
 ` 
 export const InputForm = styled.div`
-       margin-bottom: 30px;
-       font-size: 22px;
+       margin-bottom: 3rem;
+       font-size: 2.2rem;
 
        label {
-              margin-right: 30px;
+              margin-right: 3rem;
        }
 
        input {
-              font-size: 19px;
-              width: 260px;
-              height: 30px;              
+              font-size: 1.9rem;
+              width: 26rem;
+              height: 3rem;              
        }
 `
 export const ButtonLogin = styled.button`
-       width: 150px;
-       height:30px;
-       margin-top: 20px;
-       font-size: 19px;
+       width: 15rem;
+       height:3rem;
+       margin-top: 2rem;
+       font-size: 1.9rem;
        background-color:#08297D;
        color:#fff;
-       border-radius: 5px;
+       border-radius: 5rem;
+       margin-left:3rem;
 `
 export const TextBlock = styled.div`
        background-color:#06B24E;
        color:#fff;
-       font-size:32px;
+       font-size:3.2rem;
        display:flex;
        flex-direction: column;
        justify-content:center;

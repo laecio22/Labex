@@ -13,7 +13,7 @@ export const ContainerInfoTrips = styled.div`
 `
 export const ContainerTrips = styled.div`
        margin:0 50px;
-       background-color:#777;
+       background-color:rgba(134,131,131,0.7);
 `
 export const Trip = styled.div`
       display:grid;
@@ -27,6 +27,7 @@ export const InfoTrip = styled.p`
      font-weight:bold;
      color:#000;
      border:1px solid #000;
+     font-size:1.5rem;
 `
 export const ItemTrip = styled.p`
     font-size:17px;

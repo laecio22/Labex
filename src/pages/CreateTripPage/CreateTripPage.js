@@ -54,15 +54,15 @@ function CreateTripPage() {
                         <FormContainerTrip onSubmit={onSubmitTrip}>
                               <h1>Cadastro de Viagem</h1>
                               <InputForm>
-                                    <label>Nome da Viagem</label>
+                                    <label>Viagem</label>
                                     <input type={'text'} placeholder="nome da viagem" value={name} onChange={onChangeName} minLength="5" required />
                               </InputForm>
                               <InputForm>
-                                    <label>Duração em dias</label>
+                                    <label>Duração</label>
                                     <input type={'number'} placeholder="duração da viagem" value={durationInDays} onChange={onChangeDurationInDays} min="50" required />
                               </InputForm>
                               <InputForm>
-                                    <label>Data partida</label>
+                                    <label>Partida</label>
                                     <input type={'date'} value={date} onChange={onChangeDate} min={date} required />
                               </InputForm>
                               <InputForm>
