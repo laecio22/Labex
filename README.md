@@ -6,11 +6,11 @@ possui páginas com acesso público  e outras com acesso privado.
 Em andamento, ainda falta finalizar as estilizações e responsividade.
 
 ## Tecnologias
- React
- axios
- react-router-dom
- API REST
- context API com estado global
+ React,
+ axios,
+ react-router-dom,
+ API REST,
+ context API com estado global,
  react hooks
  
 
